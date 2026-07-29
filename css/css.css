@@ -940,7 +940,7 @@ header{
 #topBtn{
     position:fixed;
     top:75px;
-    right:55%;
+    left:48%;
     width:45px;
     height:45px;
     background:rgb(245, 156, 47);
