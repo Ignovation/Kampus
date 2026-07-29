@@ -21,34 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-    /* ===============================
-       スクロールでヘッダー変化
-    =============================== */
-
-    const header = document.querySelector("header");
-
-
-    if(header){
-
-        window.addEventListener("scroll",()=>{
-
-
-            if(window.scrollY > 50){
-
-                header.classList.add("scroll");
-
-            }else{
-
-                header.classList.remove("scroll");
-
-            }
-
-
-        });
-
-    }
-
-
 
 
     /* ===============================
